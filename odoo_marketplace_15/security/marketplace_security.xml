@@ -183,7 +183,7 @@
 	        <field name="perm_read" eval="1"/>
             <field name="perm_create" eval="0"/>
             <field name="perm_unlink" eval="0"/>
-	        <field name="groups" eval="[(4, ref('odoo_marketplace.marketplace_draft_seller_group'))]"/>
+	        <field name="groups" eval="[(4, ref('marketplace_draft_seller_group'))]"/>
 	    </record>
 
 		<!-- Officer group rules -->
